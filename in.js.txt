@@ -1,0 +1,17 @@
+const quotes = [
+  "Believe in yourself and all that you are.",
+  "The secret of getting ahead is getting started.",
+  "Don’t watch the clock; do what it does. Keep going.",
+  "Push yourself, because no one else is going to do it for you.",
+  "Success is not for the lazy.",
+  "Great things never come from comfort zones.",
+  "Work hard in silence. Let success make the noise.",
+  "Dream it. Wish it. Do it.",
+  "Don’t stop until you’re proud.",
+  "The harder you work for something, the greater you’ll feel when you achieve it."
+];
+
+function generateQuote() {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  document.getElementById('quote').textContent = quotes[randomIndex];
+}

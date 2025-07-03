@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Quote Generator</title>
+  <link rel="sty" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌟 Quote of the Day</h1>
+  </header>
+
+  <main>
+    <div class="quote-card" id="quote1">
+      <p class="quote">"The best way to get started is to quit talking and begin doing."</p>
+      <p class="author">– Walt Disney</p>
+      <a href="#quote2" class="next-btn">Next Quote</a>
+    </div>
+
+    <div class="quote-card" id="quote2">
+      <p class="quote">"Success is not in what you have, but who you are."</p>
+      <p class="author">– Bo Bennett</p>
+      <a href="#quote3" class="next-btn">Next Quote</a>
+    </div>
+
+    <div class="quote-card" id="quote3">
+      <p class="quote">"Do what you can, with what you have, where you are."</p>
+      <p class="author">– Theodore Roosevelt</p>
+      <a href="#quote1" class="next-btn">Back to First</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made by Vismay | © 2025</p>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Motivation</title>
+  <link rel="stylesheet" href="in.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💡 Daily Motivation</h1>
+    <p id="quote">Click the button to get a motivational quote!</p>
+    <button onclick="generateQuote()">Get Quote</button>
+  </div>
+
+  <script src="in.js"></script>
+</body>
+</html>
